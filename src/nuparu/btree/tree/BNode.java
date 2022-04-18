@@ -144,8 +144,6 @@ public class BNode {
         return children[0].min();
     }
 
-    public static BNode fuckYou = null;
-
     public void remove(int key){
         KeyCoords coords = search(key);
         if(coords == null) return;
